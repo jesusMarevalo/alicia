@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+header, nav, section, article, footer {
+  display: block;
+}
+header{
+	height: 90px;
+	position: relative;
+	/*border-bottom: 1px solid #DE0000;*/
+	
+	background-image: linear-gradient(bottom, rgb(255,255,255) 5%, #0083c9 100%);
+	background-image: -o-linear-gradient(bottom, rgb(255,255,255) 5%, #0083c9 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 5%, #0083c9 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 5%, #0083c9 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0083c9, endColorstr=#FFFFFF)";    
+    background-color: #0083c9;
+}
+
+figure.logo {
+	position: relative;
+	top: 8px;
+	left:20px;
+	float: left;
+
+}
+
+figure span {
+    font-size: 21px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #666;
+    text-transform: uppercase;
+    font-size: 25px ;
+    position: absolute;
+    width: 300px;
+    left: 60px;
+	top: 0px;
+}
+
+figure.logo figcaption h1 {
+    font-size: 21px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #666;
+    text-transform: uppercase;
+    font-size: 25px ;
+}
+.usuario {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	float: right;
+	color: #FFF;
+	font-weight: bold;
+}
+.redes {
+	position: relative;
+	top: 30px;
+	right: 5px;
+	float: right;
+}
+.redes img {
+	margin: 5px;
+	float:left;
+	height: 35px;
+}

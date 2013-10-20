@@ -1,0 +1,195 @@
+/**
+* CSS
+* 
+* @version 1.0
+* @author James Dodd
+*/
+
+@font-face {
+		font-family: 'BauerBodoni';
+		src: url('font/bauerbodonistd-italic.eot');
+		src: url('font/bauerbodonistd-italic.eot?#iefix') format('embedded-opentype'),
+				 url('font/bauerbodonistd-italic.woff') format('woff'),
+				 url('font/bauerbodonistd-italic.ttf') format('truetype'),
+				 url('font/bauerbodonistd-italic.svg#bauerbodoni') format('svg');
+		font-weight: normal;
+		font-style: italic;
+		}
+
+
+@font-face {
+		font-family: 'BauerBodoni';
+		src: url('font/bauerbodonistd-roman.eot');
+		src: url('font/bauerbodonistd-roman.eot?#iefix') format('embedded-opentype'),
+				 url('font/bauerbodonistd-roman.woff') format('woff'),
+				 url('font/bauerbodonistd-roman.ttf') format('truetype'),
+				 url('font/bauerbodonistd-roman.svg#bauerbodoni') format('svg');
+		font-weight: normal;
+		font-style: normal;
+		}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 13px;
+	font-family: Helvetica,Arial,sans-serif;
+	background: #fff;
+	color: #222;
+	min-width: 900px;
+}
+
+body.section-1 { }
+body.section-2 { }
+body.section-3 { }
+
+a:link { text-decoration: none; color: #000;}
+a:active { text-decoration: none; }
+a:visited { text-decoration: none;color: #000;}
+a:hover { text-decoration: underline; }
+
+a img { border: none; }
+
+#better{position:fixed; left:5px; top:5px; font-size: 10px; z-index: 1000}
+#better a.better:hover{ text-decoration: none}
+
+header{
+	width: 100%; 
+	height: 130px;
+	top:0;
+	z-index: 999;
+	min-width: 960px;
+}
+
+header #header_logo{
+	padding-top: 30px;
+	text-align: center;
+}
+
+header #header_logo .header_logo{
+	font-size: 27px;
+	font-weight: bold;
+}
+
+header #header_logo .header_subtitle{
+	font-size: 12px;
+	font-weight: 100;
+
+}
+
+#menu {
+	padding-top: 30px; 
+    width: 870px;
+    overflow: auto;
+    margin: 0 auto;
+	text-transform: uppercase; 
+	text-align: center;
+	font-size: 12px;
+}
+
+#menu .seccion {
+	float:left;
+	margin-right: 25px;
+}
+
+#menu .seccion:last-child {
+	margin-right: 0px;
+}
+
+#menu .active a {text-decoration: underline}
+
+.social {
+	top: 5px;
+	position: absolute;
+	right:5px;
+}
+
+.social .icono {
+	margin-right: 0px;
+}
+
+
+#content {
+	width: 100%;
+	margin-top: 180px;
+	overflow-x: hidden;
+}
+
+
+p {
+    margin: 0 0 9px 0;
+}
+
+h1,h2,h3,h4{
+	text-transform: uppercase;
+	letter-spacing: -2px;
+	line-height: 100%;	
+}
+h1 { font-size: 28px; color: #000;}h1 a, h1 a:visited{text-decoration: none; color: #000;}h1 a:hover{text-decoration: none; color: #333;}
+h2 { font-size: 24px; }
+h3 { font-size: 16px; }
+h4 { font-size: 12px; }
+
+
+.cl{clear: both}
+#once { clear: left; }
+
+#content {margin-top:0px}
+#img-container{width: 110%;}
+
+#img-container p { margin-bottom: 18px; }
+.box { float:left;margin: 10px 0 0 0; position:relative}
+
+
+.box .caja_enlace{width:100%; height:100%; position:absolute; z-index:997}
+
+.box .caja_negra{width:100%; height:100%; position:absolute; background: #000; opacity:0}
+
+.box.big img{width:1900px;}
+.box.medium img{width:950px}
+.box.small img{width:475px}
+.box.triple img{width:1425px}
+.box img{ }
+
+.box .subtitulo{position:absolute; text-align: center; top:40%; color: #fff; font-size: 14px; width:100%; margin-top:-10px; font-family: 'BauerBodoni'; font-style: italic; opacity:0}	
+.box .titulo{position:absolute; text-align: center; top:50%; color: #fff; font-size: 18px; width:100%; margin-top:-10px; text-transform: uppercase; font-weight: bold}
+.box .link {position:absolute; text-align: center; top:70%; color: #fff; font-size: 18px; width:100%; margin-top:-10px; font-family: 'BauerBodoni'; font-style: italic; opacity:0 }	
+.box .link span{ padding:0 20px 10px 20px; border-bottom:1px solid #fff }	
+
+
+.blanco_izq{z-index:998;width:5px; position: absolute; left:0; height:100%; background: url(http://theapt.es/ndxz-studio/site/img/border_blanco.png) repeat-y}
+.blanco_der{z-index:998;width:5px; position: absolute; right:0; height:100%; background: url(http://theapt.es/ndxz-studio/site/img/border_blanco.png) repeat-y}
+
+
+.fila .box:first-child .blanco_izq{display:none}
+.fila .box:last-child .blanco_der{display:none}
+
+/** footer ****/
+footer { 
+  min-width: 960px;
+  width: 100%;
+  height: 30px;
+  padding: 5px 0 0px 0;
+  text-align: center;
+  background: #FFF;
+  color: #000;
+}
+
+footer p { 
+  line-height: 1.7em;
+  padding: 0 0 10px 0;
+}
+
+footer a { 
+  color: #222;
+  text-decoration: underline;
+}
+
+footer a:hover { 
+  color: #222;
+  text-shadow: none;
+  text-decoration: underline;
+}
+/**************/

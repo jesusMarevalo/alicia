@@ -1,5 +1,6 @@
 alicia
 ======
+alicia website static
 
-alicia website static
-alicia website static
+git commit -am "message"
+git push origin master

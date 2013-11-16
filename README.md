@@ -1,4 +1,4 @@
 alicia
 ======
 
-alicia website
+alicia website static

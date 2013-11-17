@@ -36,7 +36,7 @@
 body {
 	font-size: 13px;
 	font-family: Helvetica,Arial,sans-serif;
-	background: #fff;
+	background: url('../images/fondo.jpg');
 	color: #222;
 	min-width: 900px;
 }

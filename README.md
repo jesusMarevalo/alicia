@@ -1,9 +1,11 @@
 alicia
 ======
-alicia website static
 
+git
+===
 git commit -am "message"
 git push origin master
+
 
 to update gh-pages
 ==================

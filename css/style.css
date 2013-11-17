@@ -159,12 +159,14 @@ h4 { font-size: 12px; }
 .box .link span{ padding:0 20px 10px 20px; border-bottom:1px solid #fff }	
 
 
-.blanco_izq{z-index:998;width:5px; position: absolute; left:0; height:100%; background: url(http://theapt.es/ndxz-studio/site/img/border_blanco.png) repeat-y}
-.blanco_der{z-index:998;width:5px; position: absolute; right:0; height:100%; background: url(http://theapt.es/ndxz-studio/site/img/border_blanco.png) repeat-y}
+.blanco_izq{z-index:998;width:5px; position: absolute; left:0; height:100%; background: url(../images/border.png) repeat-y}
+.blanco_der{z-index:998;width:5px; position: absolute; right:0; height:100%; background: url(../images/border.png) repeat-y}
 
 
 .fila .box:first-child .blanco_izq{display:none}
 .fila .box:last-child .blanco_der{display:none}
+
+
 
 /** footer ****/
 footer { 

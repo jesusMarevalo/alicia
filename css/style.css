@@ -45,6 +45,7 @@ body.section-1 { }
 body.section-2 { }
 body.section-3 { }
 
+
 a:link { text-decoration: none; color: #000;}
 a:active { text-decoration: none; }
 a:visited { text-decoration: none;color: #000;}
@@ -86,12 +87,13 @@ header #header_logo .header_subtitle{
     margin: 0 auto;
 	text-transform: uppercase; 
 	text-align: center;
-	font-size: 12px;
+	font-size: 13px;
+	font-weight: bold;
 }
 
 #menu .seccion {
 	float:left;
-	margin-right: 25px;
+	margin-right: 35px;
 }
 
 #menu .seccion:last-child {

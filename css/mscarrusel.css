@@ -12,7 +12,7 @@
 .mainGallery {
 	background:#FFF;
 	color:#fff;
-	font-family: Arial, Georgia, "Times New Roman", Times, serif;
+	font-family: Helvetica, Arial, Georgia, "Times New Roman", Times, serif;
 	width:1100px;
 	margin:0 auto
 }
@@ -35,9 +35,9 @@
 }
 .mainGallery .imgCaption {
 	float:right;
+	color: #000;
 	font-size:13px;
 	width:340px;
-	color:#a5a2a2;
 	padding-top:25px;
 	padding-left:10px
 }

@@ -27,7 +27,7 @@ function ajustarImagenes(){
 	$('.medium img').css({'width':medium});
 	$('.small img').css({'width':small});
 	$('.triple img').css({'width':triple});
-
+	
 }
 
 jQuery(window).load(function(){

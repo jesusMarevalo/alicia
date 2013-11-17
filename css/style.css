@@ -94,6 +94,7 @@ header #header_logo .header_subtitle{
 #menu .seccion {
 	float:left;
 	margin-right: 35px;
+	background: white;
 }
 
 #menu .seccion:last-child {
@@ -177,7 +178,6 @@ footer {
   height: 30px;
   padding: 5px 0 0px 0;
   text-align: center;
-  background: #FFF;
   color: #000;
 }
 

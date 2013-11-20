@@ -39,6 +39,7 @@ body {
 	background: url('../images/fondo.jpg');
 	color: #222;
 	min-width: 900px;
+	margin: 0px 0px;
 }
 
 body.section-1 { }

@@ -42,7 +42,7 @@ body {
 	margin: 0px 0px;
 }
 
-body.section-1 { }
+body.section-1 {margin: 0px 10px; }
 body.section-2 { }
 body.section-3 { }
 

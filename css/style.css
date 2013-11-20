@@ -39,12 +39,12 @@ body {
 	background: url('../images/fondo.jpg');
 	color: #222;
 	min-width: 900px;
-	margin: 0px 0px;
+	margin: 0px 10px;
 }
 
-body.section-1 {margin: 0px 10px; }
-body.section-2 { }
-body.section-3 { }
+body.section-1 { margin: 0px 10px; }
+body.section-2 { margin: 0px 10px; }
+body.section-3 { margin: 0px 10px; }
 
 
 a:link { text-decoration: none; color: #000;}

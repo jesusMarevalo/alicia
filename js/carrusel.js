@@ -29,7 +29,7 @@ function thumbSlideControl(arg) {
 }
 
 // autoSlide:2000, 
-var oBigController = $("#carouselBig").msCarousel({width:900, height:369,callback:bigSlideControl, showMessage:true, messageOpacity:1}).data("msCarousel");
+var oBigController = $("#carouselBig").msCarousel({width:1001, height:370,callback:bigSlideControl, showMessage:true, messageOpacity:1}).data("msCarousel");
 var thumbs = $("#carouselThumb").msCarousel({boxClass:'li', width:900, height:78, callback:thumbSlideControl, scrollSpeed:500}).data("msCarousel");
 
 //big button click

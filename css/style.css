@@ -59,7 +59,7 @@ a img { border: none; }
 
 header{
 	width: 100%; 
-	height: 230px;
+	height: 195px;
 	top:0;
 	z-index: 999;
 	min-width: 960px;
@@ -82,19 +82,19 @@ header #header_logo .header_subtitle{
 }
 
 #menu {
-	padding-top: 10px; 
-    width: 900px;
+	padding-top: 15px; 
+    width: 920px;
     overflow: auto;
     margin: 0 auto;
 	text-transform: uppercase; 
 	text-align: center;
-	font-size: 13px;
-	font-weight: bold;
+	font-size: 13.5px;
+	/* font-weight: bold; */
 }
 
 #menu .seccion {
 	float:left;
-	margin-right: 35px;
+	margin-right: 25px;
 	background: white;
 }
 
@@ -117,7 +117,7 @@ header #header_logo .header_subtitle{
 
 #content {
 	width: 100%;
-	margin-top: 180px;
+	margin-top: 0px;
 	overflow-x: hidden;
 }
 
@@ -159,8 +159,8 @@ h4 { font-size: 12px; }
 
 .box .subtitulo{position:absolute; text-align: center; top:40%; color: #fff; font-size: 14px; width:100%; margin-top:-10px; font-family: 'BauerBodoni'; font-style: italic; opacity:0}	
 .box .titulo{position:absolute; text-align: center; top:50%; color: #fff; font-size: 18px; width:100%; margin-top:-10px; text-transform: uppercase; font-weight: bold}
-.box .link {position:absolute; text-align: center; top:70%; color: #fff; font-size: 18px; width:100%; margin-top:-10px; font-family: 'BauerBodoni'; font-style: italic; opacity:0 }	
-.box .link span{ padding:0 20px 10px 20px; border-bottom:1px solid #fff }	
+.box .link {position:absolute; text-align: center; top:95%; color: #fff; font-size: 13px; width:100%; margin-top:-10px; font-family: 'BauerBodoni'; font-style: italic; opacity:0 }	
+.box .link span{ padding:0 20px 0 20px; float: right }	
 
 
 .blanco_izq{z-index:998;width:5px; position: absolute; left:0; height:100%; background: url(../images/border.png) repeat-y}

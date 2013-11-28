@@ -7,7 +7,7 @@ function bigSlideControl(arg) {
 	var currentItem = oBigController.getCurrentID();
 	activateThumb(currentItem);
 	if(currentItem==0) {
-		$("#imgLeftBig").css({opacity:0.4});
+		$("#imgLeftBig").css({opacity:0});
 	} else {
 		$("#imgLeftBig").css({opacity:1});
 	}
@@ -22,7 +22,7 @@ function thumbSlideControl(arg) {
 	var oController = arg;
 	var currentItem = oController.getCurrentID();
 	if(currentItem==0) {
-		$("#imgLeftThumb").css({opacity:0.4});
+		$("#imgLeftThumb").css({opacity:0});
 	} else {
 			$("#imgLeftThumb").css({opacity:1})
 	}

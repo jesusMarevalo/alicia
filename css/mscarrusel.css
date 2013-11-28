@@ -77,11 +77,11 @@
 	text-indent:-999999px;
 }
 .mainGallery .nextBig {
-	background-position:-50px 0;
+	background-position:-50px -50px;
 	float:right
 }
 .mainGallery .previousBig {
-	background-position:0 0;
+	background-position:0 -50px;
 	float:left;
 }
 .mainGallery .disableBigP {
@@ -98,18 +98,18 @@
 	position:relative;
 	height:50px;
 	width:50px;
-	/*background:url(../images/slideshow-arrow-big.gif) no-repeat;*/
+	/*background:url(../images/slideshow-arrow-big.png) no-repeat;*/
 	background:url(../images/slideshow-arrows-orange.png) no-repeat;
 	text-indent:-999999px;
 }
 .mainGallery .next {
-	background-position:-50px 0;
+	background-position:-50px -50px;
 	float:right;
 }
 .mainGallery .previous {
-	background-position:0 0;
+	background-position:0 -50px;
 	float:left;
-	left:10px
+	/*left:10px*/
 }
 .mainGallery .disableP {
 	background-position:0 -41px !important;

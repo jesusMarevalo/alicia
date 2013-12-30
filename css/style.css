@@ -203,3 +203,13 @@ footer a:hover {
   text-decoration: underline;
 }
 /**************/
+
+#mainText {
+	background: #FFFFFF;
+	width: 870px;
+	min-height: 400px;
+	margin: 10px auto;
+	padding: 15px;
+	font-weight: 100;
+	font-size: 14px;
+}

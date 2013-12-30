@@ -46,6 +46,10 @@ body.section-1 { margin: 0px 10px; }
 body.section-2 { margin: 0px 10px; }
 body.section-3 { margin: 0px 10px; }
 
+.logo {
+	height: 165px;
+	margin-top: 5px;
+}
 
 a:link { text-decoration: none; color: #000;}
 a:active { text-decoration: none; }
@@ -88,14 +92,15 @@ header #header_logo .header_subtitle{
     margin: 0 auto;
 	text-transform: uppercase; 
 	text-align: center;
-	font-size: 13.5px;
+	font-size: 13px;
 	/* font-weight: bold; */
 }
 
 #menu .seccion {
-	float:left;
-	margin-right: 25px;
+	/*float:left;*/
+	margin-right: 20px;
 	background: white;
+	display: inline-block;
 }
 
 #menu .seccion:last-child {

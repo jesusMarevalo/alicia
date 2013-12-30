@@ -1,5 +1,5 @@
 function mostrarCaja(x){
-	$('#box'+x+' .caja_negra').css({'opacity':'0.8'});
+	$('#box'+x+' .caja_negra').css({'opacity':'0.3'});
 	$('#box'+x+' .subtitulo').css({'opacity':'1'});
 	$('#box'+x+' .link').css({'opacity':'1'});
 }

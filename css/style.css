@@ -231,6 +231,10 @@ footer a:hover {
     padding: 100px;
 }
 
+.contacto a {
+	color: #FFF;
+}
+
 ol {
 	font-size: 15px;
 	margin: 10px 30px;	

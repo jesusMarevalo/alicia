@@ -132,7 +132,7 @@ p {
 }
 
 h1,h2,h3,h4{
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	letter-spacing: -2px;
 	line-height: 100%;	
 }

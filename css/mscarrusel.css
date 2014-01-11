@@ -33,7 +33,7 @@
     font-weight: lighter;
     letter-spacing: 0;
     margin: 0;
-    padding: 13px 0;
+    padding: 10px 0;
 }
 .mainGallery h5 {
 	font-size:11px;
@@ -146,7 +146,7 @@
 	margin:0
 }
 .ThumbImageSize {
-	height: 100px;
+	height: 80px;
 	width:150px;
 }
 .mainGallery li {

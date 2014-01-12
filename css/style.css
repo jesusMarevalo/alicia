@@ -238,6 +238,7 @@ footer a:hover {
 ol {
 	font-size: 15px;
 	margin: 10px 30px;	
+	list-style: none;
 }
 
 ol li {

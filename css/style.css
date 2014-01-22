@@ -56,10 +56,17 @@ a:active { text-decoration: none; }
 a:visited { text-decoration: none;color: #000;}
 a:hover { text-decoration: underline; }
 
+#menu .seccion a:link { text-decoration: none; color: #fff;}
+#menu .seccion a:active { text-decoration: none; }
+#menu .seccion a:visited { text-decoration: none;color: #fff;}
+#menu .seccion a:hover { text-decoration: underline; }
+
 a img { border: none; }
 
 #better{position:fixed; left:5px; top:5px; font-size: 10px; z-index: 1000}
 #better a.better:hover{ text-decoration: none}
+
+
 
 header{
 	width: 100%; 
@@ -72,6 +79,7 @@ header{
 header #header_logo{
 	padding-top: 0px;
 	text-align: center;
+	padding-bottom: 10px
 }
 
 header #header_logo .header_logo{
@@ -86,21 +94,26 @@ header #header_logo .header_subtitle{
 }
 
 #menu {
-	padding-top: 15px; 
+	padding-top: 0px; 
     width: 950px;
     overflow: auto;
     margin: 0 auto;
 	text-transform: uppercase; 
 	text-align: center;
 	font-size: 13px;
+	/*border: 1px solid #f4aa00;*/
+	background: #f4aa00;
 	/* font-weight: bold; */
+	color: white;
 }
 
 #menu .seccion {
 	/*float:left;*/
-	margin-right: 17px;
-	background: white;
+	margin-right: 14px;
+	/*background: white;*/
+	background: #f4aa00;
 	display: inline-block;
+	padding: 1px;
 }
 
 #menu .seccion:last-child {
